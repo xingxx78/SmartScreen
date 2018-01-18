@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nozzlesGroup_Title">%1$d号 %2$d枪机</string>
+    <string name="nozzleView_defaultNoTrxHint">暂无待处理交易...</string>
+    <string name="nozzleView_trxFinishedTimeHint0">刚刚</string>
+    <string name="nozzleView_trxFinishedTimeHint1"> 分钟前</string>
+    <string name="nozzleView_trxFinishedTimeHint2"> 小时前</string>
+    <string name="transactionSummaryView_TrxTotalAmountTextView">总金额 %1$s</string>
+    <string name="transactionSummaryView_TrxTotalVolumnTextView">升数 %1$s</string>
+    <string name="transactionSummaryView_TrxSequenceNumberTextView">流水号 %1$s</string>
+    <string name="transactionSummaryView_TrxTimestampTextView">时间 %1$s</string>
+    <string name="transactionSummaryView_TrxReservedByTextView">由POS %1$s</string>
+    <string name="transactionSummaryView_TrxReservedByThisPosHint">由你</string>
+</resources>

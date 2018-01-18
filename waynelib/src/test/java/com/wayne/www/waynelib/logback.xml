@@ -1,0 +1,78 @@
+<configuration>
+    <property name="LOG_DIR" value="/data/data/com.wayne.www.xpos/log" />
+    <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- active log file -->
+        <!--<file>${LOG_DIR}/log.txt</file>-->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{10} - %msg%n</pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- daily rollover period -->
+            <fileNamePattern>${LOG_DIR}/log_%d.txt</fileNamePattern>
+
+            <!-- keep 20 days' worth of history -->
+            <maxHistory>20</maxHistory>
+        </rollingPolicy>
+    </appender>
+    <appender name="logcat" class="ch.qos.logback.classic.android.LogcatAppender">
+        <tagEncoder>
+            <pattern>%logger{12}</pattern>
+        </tagEncoder>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{10} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="com.wayne.www.xpos.LoginActivity">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+
+    <logger name="com.wayne.www.xpos.PosMainActivity">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.xpos.IndoorShowJournalActivity">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.waynelib.fdc.FdcClient" level="DEBUG">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.waynelib.fdc.MessageRouterClient" level="DEBUG">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.waynelib.ui.NozzleView">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+
+    <logger name="com.wayne.www.waynelib.ui.PumpView">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+
+    <logger name="com.wayne.www.waynelib.webservice.AutoRenewAccessTokenInterceptor">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.waynelib.webservice.CloudServiceGenerator" level="DEBUG">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.waynelib.Util" level="DEBUG">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+    <logger name="com.wayne.www.xpos.receiptFormater.AidlUtil" level="INFO">
+        <appender-ref ref="RollingFile" />
+        <appender-ref ref="logcat" />
+    </logger>
+
+    <!--<root level="DEBUG">-->
+    <!--<appender-ref ref="RollingFile" />-->
+    <!--<appender-ref ref="logcat" />-->
+    <!--</root>-->
+</configuration>

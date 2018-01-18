@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartScreen</string>
+    <string name="leftPosLayout_Keypad_Enter">Enter</string>
+    <string name="leftPosLayout_Keypad_Clear">C</string>
+    <string name="leftPosLayout_Keypad_Delete">Del</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="InputAuthCode">Please Input Auth Code From Wechat</string>
+    <string name="sendingAuthCode">Sending Auth Code</string>
+    <string name="romoveNozzle">Please Remove Nozzle</string>
+    <string name="fuelingInProgress">Fueling</string>
+    <string name="finishedFueling">Fueling Completed</string>
+</resources>

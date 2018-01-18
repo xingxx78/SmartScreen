@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp">
+    <!--<TextView-->
+        <!--android:id="@+id/autheddByWhoHintTextView"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="2"-->
+        <!--android:gravity="center"-->
+        <!--android:text="authedBy Android110"-->
+        <!--android:textColor="#ff3c3c54"-->
+        <!--android:textSize="12sp"-->
+        <!--android:textStyle="normal|italic" />-->
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:gravity="center_vertical"
+        android:text="￥164.34"
+        android:textColor="#ff232d33"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/volumnTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2.5"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="15.45L"
+        android:textColor="#ff232d33"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timeExpiredHintTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="15分钟前"
+        android:textColor="#ff3c3c54"
+        android:textSize="12sp"
+        android:textStyle="normal|italic" />
+
+    <ImageView
+        android:id="@+id/trxStateImageView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="3"
+        android:adjustViewBounds="true"
+        android:src="@drawable/transaction_state_locked" />
+
+    <TextView
+        android:id="@+id/lockedByWhoHintTextView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|left"
+        android:text=""
+        android:textColor="#ff3c3c54"
+        android:textSize="14sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/TrxSequenceNo_hidden"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.01" />
+
+</LinearLayout>
