@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SmartScreen.iml" filepath="$PROJECT_DIR$/SmartScreen.iml" />
-      <module fileurl="file://E:\SmartScreen\SmartScreen\SmartScreen.iml" filepath="E:\SmartScreen\SmartScreen\SmartScreen.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://E:\SmartScreen\SmartScreen\app\app.iml" filepath="E:\SmartScreen\SmartScreen\app\app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/waynelib/waynelib.iml" filepath="$PROJECT_DIR$/waynelib/waynelib.iml" />
-      <module fileurl="file://E:\SmartScreen\SmartScreen\waynelib\waynelib.iml" filepath="E:\SmartScreen\SmartScreen\waynelib\waynelib.iml" />
+      <module fileurl="file://E:/SmartScreen/SmartScreen/SmartScreen.iml" filepath="E:/SmartScreen/SmartScreen/SmartScreen.iml" />
+      <module fileurl="file://E:\Android\SmartScreenTest\SmartScreen.iml" filepath="E:\Android\SmartScreenTest\SmartScreen.iml" />
+      <module fileurl="file://E:/SmartScreen/SmartScreen/app/app.iml" filepath="E:/SmartScreen/SmartScreen/app/app.iml" />
+      <module fileurl="file://E:\Android\SmartScreenTest\app\app.iml" filepath="E:\Android\SmartScreenTest\app\app.iml" />
+      <module fileurl="file://E:/SmartScreen/SmartScreen/waynelib/waynelib.iml" filepath="E:/SmartScreen/SmartScreen/waynelib/waynelib.iml" />
+      <module fileurl="file://E:\Android\SmartScreenTest\waynelib\waynelib.iml" filepath="E:\Android\SmartScreenTest\waynelib\waynelib.iml" />
     </modules>
   </component>
 </project>
